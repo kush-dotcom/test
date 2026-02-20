@@ -1,0 +1,8 @@
+trigger:
+  main
+stages: Build stage
+stage:
+  jobs:
+    job: Task/Script
+    Pool: VmImagepool
+    
